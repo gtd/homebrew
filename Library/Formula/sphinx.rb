@@ -9,6 +9,9 @@ class Libstemmer < Formula
 end
 
 class Sphinx < Formula
+  # To compile as of today on moutain lion require installing apple-gcc42 and then:
+  # export CC="gcc-4.2"
+  # brew install sphinx --use-gcc --env=std
   url 'http://sphinxsearch.com/files/archive/sphinx-0.9.9.tar.gz'
   homepage 'http://www.sphinxsearch.com'
   md5 '7b9b618cb9b378f949bb1b91ddcc4f54'
